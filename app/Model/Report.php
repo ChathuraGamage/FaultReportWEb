@@ -11,7 +11,7 @@ class Report extends AppModel {
  *
  * @var string
  */
-	public $primaryKey = '2';
+	public $primaryKey = 'reportid';
 
 /**
  * Display field
