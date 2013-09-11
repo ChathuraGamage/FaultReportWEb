@@ -11,14 +11,14 @@ class User extends AppModel {
  *
  * @var string
  */
-	public $primaryKey = 'username';
+	public $primaryKey = 'userid';
 
 /**
  * Display field
  *
  * @var string
  */
-	public $displayField = 'username';
+	public $displayField = 'userid';
 
 /**
  * Validation rules
@@ -26,15 +26,7 @@ class User extends AppModel {
  * @var array
  */
 	public $validate = array(
-		'username' => array(
-			'alphanumeric' => array(
-				'rule' => array('alphanumeric'),
-				//'message' => 'Your custom message here',
-				//'allowEmpty' => false,
-				//'required' => false,
-				//'last' => false, // Stop validation after this rule
-				//'on' => 'create', // Limit validation to 'create' or 'update' operations
-			),
+		'userid' => array(
 			'notempty' => array(
 				'rule' => array('notempty'),
 				//'message' => 'Your custom message here',
@@ -43,8 +35,10 @@ class User extends AppModel {
 				//'last' => false, // Stop validation after this rule
 				//'on' => 'create', // Limit validation to 'create' or 'update' operations
 			),
-			'minlength' => array(
-				'rule' => array('minlength'),
+		),
+		'username' => array(
+			'notempty' => array(
+				'rule' => array('notempty'),
 				//'message' => 'Your custom message here',
 				//'allowEmpty' => false,
 				//'required' => false,
@@ -53,6 +47,16 @@ class User extends AppModel {
 			),
 		),
 		'password' => array(
+			'notempty' => array(
+				'rule' => array('notempty'),
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+		),
+		'role' => array(
 			'notempty' => array(
 				'rule' => array('notempty'),
 				//'message' => 'Your custom message here',

@@ -8,6 +8,34 @@ App::uses('AppController', 'Controller');
 class CategoriesController extends AppController {
 
 /**
+ * login method
+ *
+ * @return void
+ */    
+    
+        public function login(){
+            if($this->request->is('post')){
+               if($this->Auth->Login()){
+                    $this->redirect($this->Auth->redirect());
+               }else {
+                    $this->Session->setFlash('Username password combination mismatch');
+               }
+            }
+        }
+        
+/**
+ * logout method
+ *
+ * @return void
+ */ 
+        
+        public function loguot(){
+            $this->redirect($this->Auth->logout());         
+        }    
+    
+    
+    
+/**
  * index method
  *
  * @return void
