@@ -6,12 +6,25 @@ App::uses('AppController', 'Controller');
  * @property User $User
  */
 class UsersController extends AppController {
+
+        public function isAuthorized($user) {
+            if(in_array($this->action,array('edit','delete'))){
+                if($user['userid'] != $this->request->parans['pass'][0]){
+                    return false;
+                }
+            }
+            return true;
+        }
     
 /**
  * login method
  *
  * @return void
  */    
+        public function beforeFilter() {
+            parent::beforeFilter();
+            $this->Auth->allow('add');
+        }
     
         public function login(){
             if($this->request->is('post')){
@@ -29,7 +42,7 @@ class UsersController extends AppController {
  * @return void
  */ 
         
-        public function loguot(){
+        public function logout(){
             $this->redirect($this->Auth->logout());         
         }  
        
