@@ -30,7 +30,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
                             <?php if($logged_in):?>
                                 Welcome <?php echo $current_user['username'];?>. <?php echo $this->Html->link('logout',array('controller'=>'users', 'action'=>'logout')); ?>                         
                             <?php else: ?>
-                                <?php echo $this->Html->link('login',array('controller'=>'users', 'action'=>'login')); ?>                                
+                                You are not logged in. <?php echo $this->Html->link('login',array('controller'=>'users', 'action'=>'login')); ?>                                
                             <?php endif; ?>
                     </div>
 

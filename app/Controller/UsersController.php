@@ -6,10 +6,16 @@ App::uses('AppController', 'Controller');
  * @property User $User
  */
 class UsersController extends AppController {
+    
+/**
+ * method for disabling suer from manipulating another users data.
+ * @param type $user
+ * @return boolean
+ */    
 
         public function isAuthorized($user) {
             if(in_array($this->action,array('edit','delete'))){
-                if($user['userid'] != $this->request->parans['pass'][0]){
+                if($user['userid'] == $this->request->parans['pass'][0]){
                     return false;
                 }
             }
@@ -43,6 +49,7 @@ class UsersController extends AppController {
  */ 
         
         public function logout(){
+            $this->Session->destroy();
             $this->redirect($this->Auth->logout());         
         }  
        
