@@ -15,9 +15,9 @@ class UsersController extends AppController {
 
         public function isAuthorized($user) {
             if(in_array($this->action,array('edit','delete'))){
-                if($user['userid'] != $this->request->parans['pass'][0]){
-                    return false;
-                }
+                //if($user['userid'] != $this->request->parans['pass'][0]){
+                //    return false;
+                //}
             }
             return true;
         }
