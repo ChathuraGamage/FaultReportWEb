@@ -15,7 +15,7 @@ class UsersController extends AppController {
 
         public function isAuthorized($user) {
             if(in_array($this->action,array('edit','delete'))){
-                if($user['userid'] == $this->request->parans['pass'][0]){
+                if($user['userid'] != $this->request->parans['pass'][0]){
                     return false;
                 }
             }
@@ -30,6 +30,7 @@ class UsersController extends AppController {
         public function beforeFilter() {
             parent::beforeFilter();
             $this->Auth->allow('add');
+            $this->Auth->allow('login');
         }
     
         public function login(){

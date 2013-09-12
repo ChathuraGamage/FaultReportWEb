@@ -16,8 +16,11 @@
 		<td><?php echo h($user['User']['role']); ?>&nbsp;</td>
 		<td class="actions">
 			<?php echo $this->Html->link(__('View'), array('action' => 'view', $user['User']['userid'])); ?>
-			<?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $user['User']['userid'])); ?>
-			<?php echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $user['User']['userid']), null, __('Are you sure you want to delete # %s?', $user['User']['userid'])); ?>
+                    
+                        <?php if($current_user['userid']==$user['User']['userid'] || $current_user['role']=='admin'):?>
+                            <?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $user['User']['userid'])); ?>
+                            <?php echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $user['User']['userid']), null, __('Are you sure you want to delete # %s?', $user['User']['userid'])); ?>
+                        <?php endif;?>
 		</td>
 	</tr>
 <?php endforeach; ?>
