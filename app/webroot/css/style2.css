@@ -1,0 +1,299 @@
+/*
+Theme Name: 	AshWebStudio 2013
+Author:         Derek Ashauer
+Author URI:     http://www.ashwebstudio.com
+*/
+
+body, div, h1, h2, h3, h4, p, ul, ol, li, dl, dt, dd, img, form, fieldset, blockquote { margin: 0px; padding: 0px; border: 0px; }
+body { background: #FFF url(_images/screenshots.jpg) center top repeat fixed; text-align: center; }
+p, div, li, h1, h2, h3, h4, td, th, input, select, textarea { font-family: "proxima-nova", sans-serif; font-style: normal; font-size: 13px; color: #323232; line-height: 18px; font-weight: 400; }
+p, h1, h2, h3, h4, section ul, section ol, section table { margin-bottom: 15px; }
+a img, :link img, :visited img { border: none }
+a { color: #30a0ba; text-decoration: underline; }
+a:hover { color: #d68800; text-decoration: underline; }
+div.clear { clear: both; overflow: hidden; height: 1px; }
+input { vertical-align: middle; }
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+.clearfix { display: inline-block; }
+html[xmlns] .clearfix {	display: block; } 
+* html .clearfix { height: 1%; }
+.gfield { margin-left: 0 !important;  }
+.container { width: 960px; margin: 0 auto; text-align: left; }
+
+/* WordPress required styles */
+.alignright { float: right; margin: 0 0 10px 15px; }
+.alignleft { float: left; margin: 0 15px 10px 0; }
+.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+.wp-caption { border: 1px solid #ddd; text-align: center; background-color: #f3f3f3; padding-top: 4px; margin: 10px; -moz-border-radius: 3px; -khtml-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; }
+.wp-caption img { margin: 0; padding: 0; border: 0 none; }
+.wp-caption-dd { font-size: 11px; line-height: 17px; padding: 0 4px 5px; margin: 0; }
+
+/* ----------------------------------- */
+/* HEADER
+/* ----------------------------------- */
+header { height: 105px; background: #FFF; padding: 25px 0 0 0; }
+#logo { float: left; margin: 30px 0 0 0; }
+#utility { float: right; font-size: 12px; color: #d68800; }
+#utility a { color: #666; text-decoration: none; margin: 0 20px 0 0; }
+#utility a:hover { color: #d68800; }
+#utility #support { padding: 0 0 2px 23px; background: transparent url(_images/support.png) 0 0 no-repeat; }
+#utility #basecamp { padding: 0 0 0 23px; background: transparent url(_images/basecamp.png) 0 1px no-repeat; }
+#utility .contact { font-size: 15px; }
+#utility .contact .phone, #utility .contact a { font-weight: 700; }
+#utility .contact a { color: #d68800; margin: 0; }
+#utility .contact a:hover { color: #30a0ba; }
+header nav { clear: right; float: right; margin: 20px 0 0 0; }
+header nav li { float: left; font-family: "proxima-nova", sans-serif; font-weight: 600; list-style: none; margin: 0 0 0 70px; font-size: 13px; text-transform: uppercase; }
+header nav a { color: #353535; text-decoration: none; }
+header nav a:hover { text-decoration: none; }
+header nav li.current-menu-item a, 
+.single-portfolio header nav li.menu-item-1515 a, 
+.tax-portfolio-services header nav li.menu-item-1515 a, 
+.single-post header nav li.menu-item-1512 a, 
+.category header nav li.menu-item-1512 a,
+header nav li.current-page-ancestor a { padding: 5px 20px; border-radius: 3px; background: #EFEFEF; color: #000; }
+
+/* ----------------------------------- */
+/* HOME
+/* ----------------------------------- */
+#slideshow { overflow: visible !important; }
+.slide { height: 235px; width: 960px; padding: 85px 0 0 0; }
+.slide img.slide-img { float: right; margin: -105px 0 0 0; }
+.slide h1 { color: #FFF; font-family: "proxima-nova", sans-serif; font-weight: 700; font-size: 44px; line-height: 44px; margin: 0 0 2px 0; }
+.slide p { color: #FFF; font-family: "proxima-nova", sans-serif; font-size: 30px; line-height: 30px; margin: 0 0 2px 0; }
+.slide span { display: inline-block; padding: 5px 15px; background: transparent url(_images/banner-headline.png) 0 0 repeat; }
+.slide p a { padding: 10px 15px; background: transparent url(_images/banner-button.png) 0 0 repeat; font-family: "proxima-nova"; color: #FFF; text-transform: uppercase; text-decoration: none; font-size: 14px; }
+.slide p a:hover { color: #353535; }
+#slide1 p { margin-right: 505px; }
+#slide1 #mini-slideshow { display: block; float: right; margin: -105px 0 0 0; width: 463px; height: 371px; background: transparent url(_images/computer.png) 0 0 no-repeat; }
+#slide1 #mini-slideshow img { padding: 19px 0 0 19px; }
+#slide3 img.slide-img { margin-top: -115px; }
+#slide4 img.slide-img { margin-top: -120px; }
+
+#slide-menu { background: #FFF; padding: 15px 0 0 0; }
+#slide-menu a { background: transparent url(_images/slide-menu.png) 0 0 no-repeat; margin-right: 20px; width: 7px; height: 7px; display: block; float: left; text-indent: -3000px; }
+#slide-menu a.activeSlide, #slide-menu a:hover { background-position: -7px 0; }
+
+#welcome { background: #FFF; }
+#welcome section { padding: 50px 0; }
+#welcome .content { width: 700px; float: left; }
+#welcome .content h1 { font-family: "proxima-nova", sans-serif; font-weight: 300; font-size: 32px; line-height: 32px; color: #353535; margin: 0 0 7px 0; }
+#welcome .content p { color: #727272; font-size: 15px; }
+#welcome a.button { float: right; padding: 23px 30px; border-radius: 3px; margin: 8px 0 0 0; font-size: 14px; text-transform: uppercase; font-family: "proxima-nova", sans-serif; color: #FFF; text-decoration: none; background: #d68800; }
+#welcome a.button:hover { background: #30a0ba; }
+
+#services { background: #30a0ba url(_images/bg-portfolio.jpg) center top no-repeat fixed; padding: 80px 0; text-align: center; }
+#services h1 { font-family: "adelle", serif; color: #FFF; font-size: 36px; line-height: 36px; text-align: center; }
+#services p.tagline { font-family: "proxima-nova", sans-serif; color: #cdecf1; font-size: 18px; line-height: 24px; text-align: center; margin: 0 100px 30px 100px; padding: 0 0 30px 0; }
+#services p { color: #cdecf1; font-size: 13px; line-height: 15px; }
+#services li { width: 250px; height: 100px; padding: 100px 25px 0 25px; float: left; list-style: none; text-align: center; }
+#services li h2 { font-size: 18px; font-weight: 700; line-height: 20px; margin: 0 0 4px 0; font-family: "proxima-nova", sans-serif; }
+#services li h2 a { color: #FFF; text-decoration: none; }
+#services li h2 a:hover { color: #173d46; }
+#services li#web-design { background: transparent url(_images/icon-webdesign.png) center top no-repeat; }
+#services li#web-marketing { background: transparent url(_images/icon-marketing.png) center top no-repeat; }
+#services li#e-commerce { background: transparent url(_images/icon-ecommerce.png) center top no-repeat; }
+#services li#cms { background: transparent url(_images/icon-cms.png) center top no-repeat; }
+#services li#hosting { background: transparent url(_images/icon-hosting.png) center top no-repeat; }
+
+/*
+#services .content { width: 370px; float: right; }
+#services ul { width: 530px; float: left; }
+#services li { list-style: none; padding: 5px 0 5px 100px; }
+#services li h2 { font-size: 28px; line-height: 28px; margin: 0 0 4px 0; font-family: "proxima-nova", sans-serif; }
+#services li h2 a { color: #173d46; text-decoration: none; }
+#services li h2 a:hover { color: #FFF; }
+#services li p { font-size: 14px; line-height: 18px; }
+#services li#web-design { background: transparent url(_images/icon-webdesign.png) 0 0 no-repeat; }
+#services li#web-marketing { background: transparent url(_images/icon-marketing.png) 0 0 no-repeat; }
+#services li#e-commerce { background: transparent url(_images/icon-ecommerce.png) 0 0 no-repeat; }
+#services li#cms { background: transparent url(_images/icon-cms.png) 0 0 no-repeat; }
+#services li#hosting { background: transparent url(_images/icon-hosting.png) 0 0 no-repeat; }
+*/
+
+#examples { background: #173d46; padding: 80px 0; text-align: center; }
+#examples h1 { font-family: "adelle", serif; color: #FFF; font-size: 36px; line-height: 36px; text-align: center;  }
+#examples p.tagline { font-family: "proxima-nova", sans-serif; color: #30a0ba; font-size: 22px; line-height: 22px; text-align: center; margin: 0 0 30px 0; /*background: transparent url(_images/dots.png) center bottom no-repeat;*/ padding: 0 0 30px 0; }
+#examples #projects li { width: 300px; float: left; margin: 0 0 30px 30px; padding: 0; text-align: left; list-style: none; }
+#examples #projects li.col1 { margin-left: 0; }
+#examples #projects li .image { height: 210px; overflow: hidden; margin: 0 0 10px 0;  }
+#examples #projects li img { position: relative; top: 10px;  }
+#examples #projects li h2 { font-size: 16px; line-height: 18px; font-family: ""proxima-nova"", sans-serif; color: #FFF; }
+#examples #projects li a { color: #d68800; }
+#examples #projects li a:hover { color: #30a0ba; }
+/*
+#examples #projects li a.button { background: #30a0ba; font-size: 11px; text-transform: uppercase; color: #FFF; text-decoration: none; border-radius: 3px; padding: 5px 10px; }
+#examples #projects li a.button:hover { background: #d68800; }
+#examples #projects li h2, #examples #projects li p { padding: 0 0 0 7px; }
+*/
+#examples #viewby { background: #12323a; padding: 10px; border-radius: 3px; clear: both; color: #30a0ba; font-size: 14px; font-family: ""proxima-nova"", sans-serif; text-align: center; }
+#examples #viewby a { margin-left: 15px; text-decoration: none; font-family: ""proxima-nova""; }
+
+#why { background: #2d2d2d url(_images/services.jpg) center top no-repeat fixed; padding: 80px 0; }
+#why .container { text-align: center; }
+#why h1 { font-family: "adelle", serif; color: #FFF; font-size: 36px; line-height: 36px; text-align: center; }
+#why p.tagline { font-family: "proxima-nova", sans-serif; color: #30a0ba; font-size: 22px; line-height: 22px; margin: 0 0 30px 0; /*background: transparent url(_images/dots.png) center bottom no-repeat;*/ padding: 0 0 30px 0;}
+#why li { width: 162px; float: left; padding: 0 15px; list-style: none; }
+#why li .icon { height: 162px; border-radius: 3px; background: #1c1c1c; margin: 0 0 15px 0; }
+#why li h2 { font-family: ""proxima-nova"", sans-serif; font-size: 18px; color: #FFF; }
+#why li p { color: #adadad; line-height: 15px; }
+#why p.cta { margin: 30px 0 0 0; font-size: 18px; font-family: "proxima-nova", sans-serif; color: #FFF; text-transform: uppercase; }
+#why a.button { padding: 15px 20px; border-radius: 3px; margin: 0 0 0 20px; font-size: 14px; text-transform: uppercase; font-family: "proxima-nova", sans-serif; color: #FFF; text-decoration: none; background: #d68800; }
+#why a.button:hover { color: #353535; }
+
+
+footer { background: #000; padding: 30px 0 70px 0; }
+footer li { float: left; list-style: none; padding: 0 20px; margin: 0 0 10px 0; border-left: 1px solid #3b3b3b; text-transform: uppercase; }
+footer li.first { border-left: none; padding-left: 0; }
+#footer-right { width: 285px; float: right; }
+#footer-right p { text-transform: uppercase; border-bottom: 1px solid #3b3b3b; color: #858585; padding: 0 0 10px 0; margin: 0 0 10px 0; }
+#footer-left { width: 655px; float: left; }
+#footer-left p { border-top: 1px solid #3b3b3b; color: #858585; padding: 10px 0 0 0; clear: left; }
+#footer-left a { color: #858585; text-decoration: none; }
+#footer-left a:hover { color: #FFF; text-decoration: none; }
+#footer-left span.phone, #footer-left a.quote { margin-left: 25px; }
+
+/* ----------------------------------- */
+/* SUB
+/* ----------------------------------- */
+/*body.post-type-archive-portfolio { background: #2f2f2f url(_images/services.jpg) center top no-repeat fixed; }*/
+#page-header { padding: 30px 0; }
+#page-header h1 { color: #FFF; font-family: "proxima-nova", sans-serif; font-size: 44px; line-height: 44px; margin: 0 0 2px 0; }
+#page-header p { color: #FFF; font-family: "proxima-nova", sans-serif; font-size: 30px; line-height: 30px; margin: 0 0 2px 0; }
+#page-header span { display: inline-block; padding: 5px 15px; background: transparent url(_images/banner-headline.png) 0 0 repeat; }
+
+/* Pages */
+#main { background: #FFF; padding: 30px 0; }
+#main section { width: 675px; float: left; }
+#main section li { margin-left: 25px; }
+#main section h2 { font-family: "proxima-nova", sans-serif; font-size: 16px; }
+#main aside { width: 250px; float: right; }
+#main aside #submenu { margin: 0 0 30px 0; }
+#main aside #submenu li { list-style: none; margin: 0 0 2px 0; background: #EFEFEF; }
+#main aside #submenu a { text-decoration: none; display: block; padding: 5px 15px; }
+#main aside #submenu li.current_page_item { background: #30a0ba; }
+#main aside #submenu li.current_page_item a { color: #FFF; }
+p.headline { font-size: 20px; line-height: 28px; font-family: "proxima-nova", sans-serif; color: #696969; }
+
+#main.wide section { width: 100%; float: none; }
+
+/* Portfolio */
+.portfolio #project-types { text-align: center; margin: 0 0 30px 0; }
+.portfolio #project-types a { margin: 0 15px; font-size: 16px; }
+#portfolio-list li { width: 238px; height: 120px; float: left; list-style: none; margin: 0 2px 2px 0; padding: 0; overflow: hidden; }
+.project-info { position: relative; top: 160px; background: #000; height: 150px; padding: 10px 15px; }
+.project-info h2 { font-size: 12px; color: #FFF; text-transform: uppercase; font-family: "proxima-nova", sans-serif; padding: 0 0 4px 0; border-bottom: 1px solid #666; }
+.project-info p { font-size: 11px; line-height: 14px; color: #666; }
+.project-info p.services a { color: #666; text-decoration: none; }
+.project-info p.details a { font-family: "proxima-nova", sans-serif; text-decoration: none; }
+
+.navigation { text-align: center; margin: 30px 0 15px 0; }
+.navigation li { display: inline; list-style: none; margin: 0 2px !important;  }
+.navigation a { text-decoration: none; }
+.navigation li .page { border: 1px solid #EFEFEF; padding: 3px 5px; }
+.navigation li .current { background: #30a0ba; color: #FFF; }
+
+/* Single Portfolio */
+#project-content { float: left; width: 375px; margin: 0 0 30px 0; }
+#project-content li { margin-left: 25px; }
+#project-content ul { margin: 0 0 15px 0; }
+#project-content h2 { font-size: 20px; line-height: 20px;  margin: 0 0 5px 0; }
+#project-description, #project-services, #project-testimonial, #project-website { margin: 0 0 40px 0; }
+#project-description p { font-size: 16px; line-height: 22px; }
+
+#project-content .testimonial p { color: #30a0ba; font-size: 16px; }
+#project-content a.url { font-family: "proxima-nova", sans-serif; padding: 5px 20px; border-radius: 4px; background: #EFEFEF; color: #000; text-transform: uppercase; text-decoration: none; }
+#project-content a.url:hover { background: #d68800; color: #FFF; }
+#project-images { width: 499px; float: right; margin: 0 0 30px 0; }
+#project-images #slide-menu { text-align: center; padding: 0 0 10px 0; }
+#project-images #slide-menu a { display: inline-block; float: none; }
+
+#portfolio-navigation { text-align: center; font-size: 16px; clear: both; margin: 0 0 25px 0;  }
+#portfolio-navigation a#back { display: inline-block; width: 17px; height: 17px; background: transparent url(_images/back.png) 0 0 no-repeat; text-indent: -3000px; }
+#portfolio-navigation a#prev { float: left; }
+#portfolio-navigation a#next { float: right; }
+
+/* Blog */
+#main section article { margin: 0 0 50px 0; }
+#main section article .post-date { width: 100px; height: 85px; padding: 15px 0 0 0; border-radius: 50px; text-align: center; background: #30a0ba; color: #FFF; float: left; }
+#main section article .post-date span.month { text-transform: uppercase; font-size: 16px; }
+#main section article .post-date span.day { font-size: 30px; line-height: 30px; font-family: "proxima-nova", sans-serif; display: block; }
+#main section article .post-content { margin-left: 125px; }
+#main section article h2.post-title { font-size: 24px; line-height: 24px; font-family: "proxima-nova", sans-serif; margin: 0 0 3px 0; }
+p.post-data, p.post-data a, p.comment-data, p.comment-data a { font-size: 12px; color: #888; }
+
+/* Services */
+#page-intro { margin: 0 0 30px 0; }
+#page-intro p { font-size: 20px; line-height: 24px; font-family: "proxima-nova", sans-serif; color: #696969; text-align: center; }
+#page-intro p#page-intro-title, #page-intro h2 { color: #000; text-align: center; font-family: "proxima-nova", sans-serif; font-size: 30px; line-height: 30px; }
+.page-id-576 hr { display: none; }
+.page-id-576 .intro { width: 300px; float: left; margin: 0 30px 30px 0; }
+.page-id-576 .col3 { margin-right: 0; }
+.page-id-576 .col1 { clear: left; }
+.page-id-576 #main .intro h2 { font-size: 20px; line-height: 20px; margin: 0 0 5px 0; }
+.page-id-576 p.more { color: #000; font-size: 18px; clear: both; text-align: center; }
+.page-id-576 p.more a { font-size: 14px; }
+
+/* Contact */
+#rfq { width: 650px; margin: 0 auto; }
+
+/* Bottom CTA */
+#bottom-action { padding: 75px 0; font-size: 40px; line-height: 40px; color: #000; }
+#bottom-action a { padding: 23px 30px; border-radius: 3px; margin: 0 0 0 25px; font-size: 14px; text-transform: uppercase; font-family: "proxima-nova", sans-serif; color: #FFF; text-decoration: none; background: #d68800; }
+#bottom-action a:hover { background: #30a0ba; }
+
+
+/* Background Images */
+body.blog, body.single, body.category { background: transparent url(_images/page-bg-blog.jpg) center top no-repeat fixed;  }
+body.page-id-582 { background: transparent url(_images/page-bg-contact.jpg) center top no-repeat fixed;  }
+body.page-id-578, body.parent-pageid-578 { background: transparent url(_images/page-bg-about.jpg) center top no-repeat fixed;  }
+body.page-id-576, body.parent-pageid-576 { background: transparent url(_images/page-bg-services.jpg) center top no-repeat fixed;  }
+body.post-type-archive-portfolio, body.single-portfolio { background: transparent url(_images/page-bg-portfolio.jpg) center top no-repeat fixed;  }
+body { -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+body.home { -webkit-background-size: auto; -moz-background-size: auto; -o-background-size: auto; background-size: auto; }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 650px) {
+
+}
+
+@media screen and (max-width: 480px) {
+			
+	body.home { background: none; }
+	.container { width: 90%; }
+	header { height: auto; padding-top: 20px; margin: 0 0 25px 0; }
+	#logo { float: none; margin: 0 auto; }
+	header nav { float: none; width: 95%; }
+	header nav li { float: none; border-bottom: 1px solid #CCC; padding: 8px 0; margin: 0; }
+	#banner { background: #FFF url(_images/screenshots.jpg) center top repeat-x; padding: 0; }
+	#banner .slide img.slide-image, #slide1 #mini-slideshow { display: none; }
+	.slide { width: 100%; height: 125px; padding: 40px 0; }
+	.slide h1 { font-size: 30px; line-height: 30px; }
+	.slide p { font-size: 16px; line-height: 20px; }
+	.slide a { padding: 5px 15px; }
+	#banner p { margin-right: 0 !important; }
+	#welcome .content { width: 95%; float: none; }
+	#welcome .content h1 { font-size: 24px; line-height: 24px; }
+	#welcome .content p { margin: 0 0 15px 0; }
+	#welcome a.button { padding: 10px 15px; float: none; margin: 0; }
+	#examples .content { width: 95%; float: none; }
+	#examples h1 { font-size: 30px; line-height: 30px; }
+	#examples p.tagline { font-size: 20px; line-height: 20px; }
+	#examples p { font-size: 13px; }
+	#examples .project { float: none; margin: 0 0 20px 0; }
+	#examples #viewby a { display: block; margin: 6px 0 0 0; }
+	#services .content, #services ul { width: 95%; float: none; }
+	#services li { background-size: 50px 50px !important; padding-left: 65px; }
+	#services li h2 { font-size: 20px; line-height: 20px; }
+	#services li p { font-size: 13px; line-height: 16px; }
+	#why .container { text-align: left; }
+	#why h1 { font-size: 30px; line-height: 30px; }
+	#why p.tagline { font-size: 20px; line-height: 20px; }
+	#why li { padding: 0; width: 100%; float: none; }
+	footer { display: none; }
+	
+}

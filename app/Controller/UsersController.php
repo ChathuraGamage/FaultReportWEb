@@ -21,18 +21,25 @@ class UsersController extends AppController {
             }
             return true;
         }
-    
+        
 /**
- * login method
- *
- * @return void
- */    
+ * This method allows some authentication for all users.
+ */        
         public function beforeFilter() {
             parent::beforeFilter();
             $this->Auth->allow('add');
             $this->Auth->allow('login');
         }
     
+        
+        
+    
+/**
+ * login method
+ *
+ * @return void
+ */    
+
         public function login(){
             if($this->request->is('post')){
                if($this->Auth->Login()){

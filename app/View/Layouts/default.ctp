@@ -5,6 +5,7 @@ $cakeDescription = __d('cake_dev', 'FaultReportApplication');
 
 <html>
 <head>
+    
 	<?php echo $this->Html->charset(); ?>
 	<title>
 		<?php echo $cakeDescription ?>:
@@ -13,7 +14,7 @@ $cakeDescription = __d('cake_dev', 'FaultReportApplication');
 	<?php
 		echo $this->Html->meta('icon');
 
-		echo $this->Html->css('cake.generic');
+		//echo $this->Html->css('cake.generic');
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
@@ -21,6 +22,7 @@ $cakeDescription = __d('cake_dev', 'FaultReportApplication');
 	?>
 </head>
 <body>
+    <title>Fault - Incident Reporting System</title>
 	<div id="container">
 		<div id="header">
                 </div >
@@ -40,19 +42,21 @@ $cakeDescription = __d('cake_dev', 'FaultReportApplication');
                     
                     <div id="sidebar">
 					<ul>
+                                            
 						<li>
 							<h1>Your destination?</h1>
-							<ul>
+							<ul> 
+                                                            
 								<li><a href="http://localhost/Fault/reports/">Reports</a></li>
 								<li><a href="http://localhost/Fault/users/">Users</a></li>
 								<li><a href="http://localhost/Fault/categories/">Available Categories</a></li>
                                                                 <li><a href="http://localhost/Fault/">Home</a></li>
+                                                                
 							</ul>
 						</li>					
 						
 					</ul>
 				</div>
-                    
 		</div> 
 		
 	</div>
