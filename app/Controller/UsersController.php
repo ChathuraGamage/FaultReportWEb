@@ -71,6 +71,8 @@ class UsersController extends AppController {
 		$this->set('users', $this->paginate());
 	}
 
+        
+        
 /**
  * view method
  *
