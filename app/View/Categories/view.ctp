@@ -16,9 +16,11 @@
 <div class="actions">
 	<h3><?php echo __('Actions'); ?></h3>
 	<ul>
+            <?php if($current_user['role']=='admin'):?>
 		<li><?php echo $this->Html->link(__('Edit Category'), array('action' => 'edit', $category['Category']['categoryid'])); ?> </li>
 		<li><?php echo $this->Form->postLink(__('Delete Category'), array('action' => 'delete', $category['Category']['categoryid']), null, __('Are you sure you want to delete # %s?', $category['Category']['categoryid'])); ?> </li>
-		<li><?php echo $this->Html->link(__('List Categories'), array('action' => 'index')); ?> </li>
+	    <?php endif;?>
+                <li><?php echo $this->Html->link(__('List Categories'), array('action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('New Category'), array('action' => 'add')); ?> </li>
 	</ul>
 </div>

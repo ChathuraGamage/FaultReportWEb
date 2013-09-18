@@ -82,12 +82,11 @@ var WRInitTime=(new Date()).getTime();
 		
 		<nav class="menu-2013-main-menu-container">
                     <ul id="menu-2013-main-menu" class="menu">
-                        <li id="menu-item-1515" class="first menu-item menu-item-type-custom menu-item-object-custom menu-item-1515"><a href="http://www.ashwebstudio.com/portfolio">Portfolio</a></li>
-                        <li id="menu-item-1514" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1514"><a href="http://www.ashwebstudio.com/services/">Services</a></li>
-                        <li id="menu-item-1511" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1511"><a href="http://www.ashwebstudio.com/about/">About</a></li>
-                        <li id="menu-item-1512" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1512"><a href="http://www.ashwebstudio.com/blog/">Blog</a></li>
-                        <li id="menu-item-1513" class="last menu-item menu-item-type-post_type menu-item-object-page menu-item-1513"><a href="http://www.ashwebstudio.com/contact/">Contact</a></li>
-                    </ul>
+                        <li id="menu-item-1515" class="first menu-item menu-item-type-custom menu-item-object-custom menu-item-1515"><a href="http://localhost/Fault/">Home</a></li>
+                        <li id="menu-item-1514" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1514"><a href="http://localhost/Fault/reports">Reports</a></li>
+                        <li id="menu-item-1511" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1511"><a href="http://localhost/Fault/users">Users</a></li>
+                        <li id="menu-item-1512" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1512"><a href="http://localhost/Fault/categories">Categories</a></li>
+                        </ul>
                 </nav>
         </div>
 </header>
@@ -116,7 +115,9 @@ var WRInitTime=(new Date()).getTime();
 	<section class="container clearfix">
 		<div class="content">
 			<h1>Fault-Incident Report System.</h1>
-			<p><strong>We want to help you grow your business online.</strong> We judge the quality of a website by it's effectiveness. Web design awards are great, but ultimately growth is what your website should do for you.</p>
+			<p>Welcome to the Fault - Incident report system of University of Moratuwa. 
+                                                                     Here you can report any illegal activities or faults occur within the university premises.
+                                                                     You can get the android application from <a href="http://google.com">here</a></p></p>
 		</div>
 		
 	</section>
@@ -133,22 +134,6 @@ var WRInitTime=(new Date()).getTime();
 			<li id="web-design">
 				<h2><a href="http://www.ashwebstudio.com/services/web-design">Web Design</a></h2>
 				<p>Hand-crafted, custom websites built to help impress your audience and turn then into customers.</p>
-			</li>
-			<li id="cms">
-				<h2><a href="http://www.ashwebstudio.com/services/cms">Content Management System</a></h2>
-				<p>Effortless website management using WordPress or a custom built solution.</p>
-			</li>
-			<li id="e-commerce">
-				<h2><a href="http://www.ashwebstudio.com/services/e-commerce">E-commerce</a></h2>
-				<p>We will help find the best solution for your unique storeâ€™s needs and work to build a successful long term business.</p>
-			</li>
-			<li id="web-marketing">
-				<h2><a href="http://www.ashwebstudio.com/services/web-marketing">Web Marketing</a></h2>
-				<p>SEO, Social Media, Email Marketing Campaigns, and more. We have the expertise to grow your audience.</p>
-			</li>
-			<li id="hosting">
-				<h2><a href="http://www.ashwebstudio.com/services/web-hosting">Web Hosting</a></h2>
-				<p>We'll handle all the technical stuff for you. Using WordPress? We have specialized hosting built specifically for incredible speed and security.</p>
 			</li>
 		</ul>
 	</section>
@@ -194,7 +179,7 @@ var WRInitTime=(new Date()).getTime();
 				);
 			});
 		</script>
-		
+
 		<div id="viewby">
 			View Projects By:
 			<a href="http://www.ashwebstudio.com/portfolio-type/web-design">Web Design</a>
@@ -209,7 +194,7 @@ var WRInitTime=(new Date()).getTime();
 
 <div id="why">
 	<section class="container clearfix">
-		<h1>Why AshWebStudio?</h1>
+		
 		<p class="tagline">You have a lot of choices for your web design project, here is what sets us apart:</p>
 		<ul class="clearfix">
 			<li>
@@ -217,66 +202,14 @@ var WRInitTime=(new Date()).getTime();
 				<h2>Full-Service<br>Web Agency</h2>
 				<p>Web design, development, SEO, email campaigns, logos, copywriting and so much more.</p>
 			</li>
-			<li>
-			<!--<div class="icon"></div>-->
-				<h2>Custom<br>Design Work</h2>
-				<p>No templates used here - unique web designs for unique businesses.</p>
-			</li>
-			<li>
-			<!--<div class="icon"></div>-->
-				<h2>Clear Communication</h2>
-				<p>Our team is dedicated to making sure you understand everything we're doing and why.</p>
-			</li>
-			<li>
-			<!--<div class="icon"></div>-->
-				<h2>Strategic<br>Partner</h2>
-				<p>We don't disappear the moment your site goes live. We're here for you as long as you need.</p>
-			</li>
-			<li>
-			<!--<div class="icon"></div>-->
-				<h2>Client<br>Satisfaction</h2>
-				<p>We're focused on ensuring client satisfaction because, honestly, we want your friends' business as well.</p>
-			</li>
 		</ul>
 		<!--<p class="cta">Convinced yet? <a href="#" class="button">request a quote</a>-->
 	</section>
 </div>
 
-<div id="bottom-action">
-	Ready to get started? <a href="http://www.ashwebstudio.com/contact">Request a free quote</a>
-</div>
 
 <footer>
-<div class="container clearfix">
-	<div id="footer-right">
-		<p>Stay Connected</p>
-		<iframe src="./San Diego web design company AshWebStudio - Creating effective small business websites_files/like.htm" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:85px; height:21px;" allowtransparency="true"></iframe>
-		<iframe allowtransparency="true" frameborder="0" scrolling="no" src="./San Diego web design company AshWebStudio - Creating effective small business websites_files/tweet_button.1379006964.htm" class="twitter-share-button twitter-count-horizontal" title="Twitter Tweet Button" data-twttr-rendered="true" style="width: 110px; height: 20px;"></iframe><script type="text/javascript" src="./San Diego web design company AshWebStudio - Creating effective small business websites_files/widgets.js"></script>
-		<!-- Place this tag where you want the +1 button to render. -->
-		<div style="display: inline;"><div id="___plusone_0" style="text-indent: 0px; margin: 0px; padding: 0px; background-color: transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 90px; height: 20px; background-position: initial initial; background-repeat: initial initial;"><iframe frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 90px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 20px;" tabindex="0" vspace="0" width="100%" id="I0_1379180072612" name="I0_1379180072612" src="./San Diego web design company AshWebStudio - Creating effective small business websites_files/fastbutton.htm" data-gapiattached="true" title="+1"></iframe></div></div>
-		<!-- Place this tag after the last +1 button tag. -->
-		<script type="text/javascript">
-		  (function() {
-		    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-		    po.src = 'http://apis.google.com/js/plusone.js';
-		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-		  })();
-		</script>
-	</div>
-	<div id="footer-left">
-		<nav class="menu-2013-main-menu-container"><ul id="menu-2013-main-menu-1" class="menu"><li class="first menu-item menu-item-type-custom menu-item-object-custom menu-item-1515"><a href="http://www.ashwebstudio.com/portfolio">Portfolio</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1514"><a href="http://www.ashwebstudio.com/services/">Services</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1511"><a href="http://www.ashwebstudio.com/about/">About</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1512"><a href="http://www.ashwebstudio.com/blog/">Blog</a></li>
-<li class="last menu-item menu-item-type-post_type menu-item-object-page menu-item-1513"><a href="http://www.ashwebstudio.com/contact/">Contact</a></li>
-</ul></nav>	
-		<p>
-			Copyright Â© AshWebStudio. All Rights Reserved. <a href="http://www.ashwebstudio.com/privacy-policy">Privacy Policy</a>
-			<span class="phone">760.239.7901</span>
-			<a href="http://www.ashwebstudio.com/contact" class="quote">Request Quote</a>
-		</p>
-	</div>
-</div>
+
 </footer>
 
 

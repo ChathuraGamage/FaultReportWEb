@@ -31,8 +31,10 @@
 <div class="actions">
 	<h3><?php echo __('Actions'); ?></h3>
 	<ul>
+            <?php if($current_user['role']=='admin'):?>
 		<li><?php echo $this->Html->link(__('Edit Report'), array('action' => 'edit', $report['Report']['reportid'])); ?> </li>
-		<li><?php echo $this->Form->postLink(__('Delete Report'), array('action' => 'delete', $report['Report']['reportid']), null, __('Are you sure you want to delete # %s?', $report['Report']['reportid'])); ?> </li>
+		<li><?php echo $this->Form->postLink(__('Delete Report'), array('action' => 'delete', $report['Report']['reportid']), null, __('Are you sure you want to delete # %s?', $report['Report']['reportid'])); ?> </li>		
+            <?php endif;?> 
 		<li><?php echo $this->Html->link(__('List Reports'), array('action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('New Report'), array('action' => 'add')); ?> </li>
 	</ul>

@@ -13,9 +13,11 @@
 		<td><?php echo h($category['Category']['categoryname']); ?>&nbsp;</td>
 		<td class="actions">
 			<?php echo $this->Html->link(__('View'), array('action' => 'view', $category['Category']['categoryid'])); ?>
+                    <?php if($current_user['role']=='admin'):?>
 			<?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $category['Category']['categoryid'])); ?>
 			<?php echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $category['Category']['categoryid']), null, __('Are you sure you want to delete # %s?', $category['Category']['categoryid'])); ?>
-		</td>
+                    <?php endif;?>
+                </td>
 	</tr>
 <?php endforeach; ?>
 	</table>

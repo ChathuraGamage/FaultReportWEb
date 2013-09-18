@@ -14,7 +14,7 @@ $cakeDescription = __d('cake_dev', 'FaultReportApplication');
 	<?php
 		echo $this->Html->meta('icon');
 
-		//echo $this->Html->css('cake.generic');
+		echo $this->Html->css('cake.generic');
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
@@ -49,7 +49,7 @@ $cakeDescription = __d('cake_dev', 'FaultReportApplication');
                                                             
 								<li><a href="http://localhost/Fault/reports/">Reports</a></li>
 								<li><a href="http://localhost/Fault/users/">Users</a></li>
-								<li><a href="http://localhost/Fault/categories/">Available Categories</a></li>
+								<li><a href="http://localhost/Fault/categories/">Categories</a></li>
                                                                 <li><a href="http://localhost/Fault/">Home</a></li>
                                                                 
 							</ul>

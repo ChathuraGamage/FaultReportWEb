@@ -19,8 +19,10 @@
 		<td><?php echo h($report['Report']['description']); ?>&nbsp;</td>
 		<td class="actions">
 			<?php echo $this->Html->link(__('View'), array('action' => 'view', $report['Report']['reportid'])); ?>
+                    <?php if($current_user['role']=='admin'):?>
 			<?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $report['Report']['reportid'])); ?>
 			<?php echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $report['Report']['reportid']), null, __('Are you sure you want to delete # %s?', $report['Report']['reportid'])); ?>
+                    <?php endif;?>
 		</td>
 	</tr>
 <?php endforeach; ?>
