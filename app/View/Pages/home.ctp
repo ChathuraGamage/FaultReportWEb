@@ -111,20 +111,22 @@ var WRInitTime=(new Date()).getTime();
 	});
 </script>
 
-<div id="welcome">
-	<section class="container clearfix">
-		<div class="content">
-			<h1>Fault-Incident Report System.</h1>
-			<p>Welcome to the Fault - Incident report system of University of Moratuwa. 
-                                                                     Here you can report any illegal activities or faults occur within the university premises.
-                                                                     You can get the android application from <a href="http://google.com">here</a></p></p>
-		</div>
-		
-	</section>
-</div>
+
 
 <div id="services">
-	<section class="container clearfix">
+	<section class="container clearfix">\
+            
+                <div id="welcome">
+                        <section class="container clearfix">
+                                <div class="content">
+                                        <h1>Fault-Incident Report System.</h1>
+                                        <p>Welcome to the Fault - Incident report system of University of Moratuwa. 
+                                                                                     Here you can report any illegal activities or faults occur within the university premises.
+                                                                                     You can get the android application from <a href="http://google.com">here</a></p></p>
+                                </div>
+
+                        </section>
+                </div>
 		<div class="content">
 			<h1>What We Do</h1>
 			<!--<p class="tagline">For businesses, a website can be an essential tool in its growth. We focus our efforts on professional web design while ensuring that website visitors convert into new leads. Whether you're starting out and want to get a new website up and running quickly or require specialized development to meet your specific needs, AshWebStudio can handle it all. The goal is to provide you with a high-quality website that makes a positive impact for your business.</p>-->
