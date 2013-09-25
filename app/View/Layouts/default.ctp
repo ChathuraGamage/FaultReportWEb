@@ -11,6 +11,8 @@ $cakeDescription = __d('cake_dev', 'FaultReportApplication');
 		<?php echo $cakeDescription ?>:
 		<?php echo $title_for_layout; ?>
 	</title>
+
+    
 	<?php
 		echo $this->Html->meta('icon');
 
@@ -24,8 +26,7 @@ $cakeDescription = __d('cake_dev', 'FaultReportApplication');
 <body>
     <title>Fault - Incident Reporting System</title>
 	<div id="container">
-		<div id="header">
-                </div >
+		
 		<div id="content">
                     <div  style="text-align: right;">
                             <?php if($logged_in):?>

@@ -81,6 +81,9 @@ var WRInitTime=(new Date()).getTime();
 		</div>
 		
 		<nav class="menu-2013-main-menu-container">
+                    <div id="header">
+                    <h1>Fault-Incident Report System.</h1>
+                </div>
                     <ul id="menu-2013-main-menu" class="menu">
                         <li id="menu-item-1515" class="first menu-item menu-item-type-custom menu-item-object-custom menu-item-1515"><a href="http://localhost/Fault/">Home</a></li>
                         <li id="menu-item-1514" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1514"><a href="http://localhost/Fault/reports">Reports</a></li>
@@ -114,7 +117,7 @@ var WRInitTime=(new Date()).getTime();
 
 
 <div id="services">
-	<section class="container clearfix">\
+	<section class="container clearfix">
             
                 <div id="welcome">
                         <section class="container clearfix">
@@ -129,15 +132,9 @@ var WRInitTime=(new Date()).getTime();
                 </div>
 		<div class="content">
 			<h1>What We Do</h1>
-			<!--<p class="tagline">For businesses, a website can be an essential tool in its growth. We focus our efforts on professional web design while ensuring that website visitors convert into new leads. Whether you're starting out and want to get a new website up and running quickly or require specialized development to meet your specific needs, AshWebStudio can handle it all. The goal is to provide you with a high-quality website that makes a positive impact for your business.</p>-->
 			<p class="tagline">For San Diego businesses and those throughout the country, a website can be an essential tool in its growth. We focus our efforts on professional web design while ensuring that website visitors convert into new leads. The goal is to provide you with a high-quality website that makes a positive impact for your business.</p>		
 		</div>
-		<ul>
-			<li id="web-design">
-				<h2><a href="http://www.ashwebstudio.com/services/web-design">Web Design</a></h2>
-				<p>Hand-crafted, custom websites built to help impress your audience and turn then into customers.</p>
-			</li>
-		</ul>
+		
 	</section>
 </div>
 
@@ -146,24 +143,18 @@ var WRInitTime=(new Date()).getTime();
 		<h1>Example Website Projects</h1>
 		<p class="tagline">See how we have helped San Diego businesses and others throughout the country succeed online</p>
 		<ul id="projects">
-							<li class="col1">
-										<div class="image">
-					<a href="http://www.ashwebstudio.com/portfolio/specialty-dog-training/"><img src="./San Diego web design company AshWebStudio - Creating effective small business websites_files/phpThumb(4).php" alt="Specialty Dog Training" style="top: 10px;"></a>
-					</div>
+				<li class="col1">
+									
 					<h2>San Diego business takes off throughout the country</h2>
 					<p><a href="http://www.ashwebstudio.com/portfolio/specialty-dog-training/" class="button">See project details</a></p>
 				</li>
-							<li class="col2">
-										<div class="image">
-					<a href="http://www.ashwebstudio.com/portfolio/jtflooring-llc/"><img src="./San Diego web design company AshWebStudio - Creating effective small business websites_files/phpThumb(5).php" alt="JTFlooring, LLC" style="top: 10px;"></a>
-					</div>
+                                <li class="col2">
+										
 					<h2>New Design + SEO = 1000% increase in website leads</h2>
 					<p><a href="http://www.ashwebstudio.com/portfolio/jtflooring-llc/" class="button">See project details</a></p>
 				</li>
-							<li class="col3">
-										<div class="image">
-					<a href="http://www.ashwebstudio.com/portfolio/plaid-barn/"><img src="./San Diego web design company AshWebStudio - Creating effective small business websites_files/phpThumb(6).php" alt="The Plaid Barn" style="top: 10px;"></a>
-					</div>
+				<li class="col3">
+										
 					<h2>Side project to full time business in 3 months</h2>
 					<p><a href="http://www.ashwebstudio.com/portfolio/plaid-barn/" class="button">See project details</a></p>
 				</li>
@@ -194,25 +185,16 @@ var WRInitTime=(new Date()).getTime();
 	</section>
 </div>
 
-<div id="why">
+<!--div id="why">
 	<section class="container clearfix">
 		
 		<p class="tagline">You have a lot of choices for your web design project, here is what sets us apart:</p>
-		<ul class="clearfix">
-			<li>
-				<!--<div class="icon"></div>-->
-				<h2>Full-Service<br>Web Agency</h2>
-				<p>Web design, development, SEO, email campaigns, logos, copywriting and so much more.</p>
-			</li>
-		</ul>
-		<!--<p class="cta">Convinced yet? <a href="#" class="button">request a quote</a>-->
+		
+		
 	</section>
 </div>
 
-
-<footer>
-
-</footer>
+-->
 
 
 <script type="text/javascript">
