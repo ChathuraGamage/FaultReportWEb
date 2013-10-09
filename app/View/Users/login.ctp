@@ -1,3 +1,4 @@
+<?php echo $this->Html->css('cake.generic'); ?>
 <h2>Login</h2>
 <?php
 echo $this->Form->create();
