@@ -2,11 +2,11 @@
 <div class="reports view">
     <h2><?php echo __('Report'); ?></h2>
     <dl>
-        <dt><?php echo __('Reportid'); ?></dt>
+        <!--<dt><?php //echo __('Reportid'); ?></dt>
         <dd>
-            <?php echo h($report['Report']['reportid']); ?>
+            <?php// echo h($report['Report']['reportid']); ?>
             &nbsp;
-        </dd>
+        </dd>-->
         <dt><?php echo __('Reporterid'); ?></dt>
         <dd>
             <?php echo h($report['Report']['reporterid']); ?>
@@ -25,6 +25,11 @@
         <dt><?php echo __('Description'); ?></dt>
         <dd>
             <?php echo h($report['Report']['description']); ?>
+            &nbsp;
+        </dd>
+        <dt><?php echo __('Status'); ?></dt>
+        <dd>
+            <?php echo h($report['Report']['status']); ?>
             &nbsp;
         </dd>
     </dl>

@@ -35,7 +35,7 @@ $cakeDescription = __d('cake_dev', 'FaultReportApplication');
                 <?php echo $this->Session->flash(); ?>
 
                 <?php echo $this->fetch('content'); ?>
-<!--
+
                 <div id="sidebar">
                     <ul>
 
@@ -54,7 +54,7 @@ $cakeDescription = __d('cake_dev', 'FaultReportApplication');
                     </ul>
                 </div>
             </div> 
--->
+
         </div>
 
 

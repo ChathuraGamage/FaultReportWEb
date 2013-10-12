@@ -2,11 +2,6 @@
 <div class="users view">
     <h2><?php echo __('User'); ?></h2>
     <dl>
-        <dt><?php echo __('Userid'); ?></dt>
-        <dd>
-            <?php echo h($user['User']['userid']); ?>
-            &nbsp;
-        </dd>
         <dt><?php echo __('Username'); ?></dt>
         <dd>
             <?php echo h($user['User']['username']); ?>
